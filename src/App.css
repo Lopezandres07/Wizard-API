@@ -1,0 +1,29 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns:  repeat(6, 1fr);  
+}
+
+.cards {
+  border: white solid .1rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 2rem;
+  width: fit-content;
+}
+
+.img {
+  width: 14rem;
+  height: 18rem;
+  border-radius: 1rem;
+}
+
+.inp {
+  width: 15rem;
+  height: 1.2rem;
+  text-align: center;
+  border-radius: .5rem;
+}
